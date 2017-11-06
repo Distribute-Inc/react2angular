@@ -39,13 +39,6 @@
     "@types/react": ">=15"
   },
   "devDependencies": {
-    "@types/angular": ">=1.5",
-    "@types/angular-mocks": ">=1.5",
-    "@types/jasmine": "^2.5.53",
-    "@types/jquery": "^3.2.10",
-    "@types/lodash.frompairs": "^4.0.3",
-    "@types/react": ">=15",
-    "@types/react-dom": ">=15",
     "angular-mocks": ">=1.5",
     "jasmine": "^2.8.0",
     "karma": "^1.7.0",
