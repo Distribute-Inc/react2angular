@@ -29,18 +29,20 @@
   "peerDependencies": {
     "prop-types": ">=15",
     "react": ">=15",
-    "react-dom": ">=15",
+    "react-dom": ">=15"
+  },
+  "devDependencies": {
     "@types/angular-mocks": ">=1.5",
-    "@types/angular": ">=1.5",
     "@types/jasmine": "^2.5.53",
     "@types/jquery": "^3.2.10",
     "@types/lodash.frompairs": "^4.0.3",
+    "@types/prop-types": "^15.5.2",
+    "@types/react": ">=15",
     "@types/react-dom": ">=15",
-    "@types/react": ">=15"
-  },
-  "devDependencies": {
     "angular-mocks": ">=1.5",
+    "expect": "^21.2.1",
     "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
     "karma": "^1.7.0",
     "karma-browserify": "^5.1.1",
     "karma-chrome-launcher": "^2.2.0",

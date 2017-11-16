@@ -9,6 +9,14 @@
       "es2015",
       "es2016.array.include"
     ],
+    "types": [
+      "angular-mocks",
+      "jasmine",
+      "jquery",
+      "lodash.frompairs",
+      "react",
+      "react-dom"
+    ],
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
@@ -20,6 +28,9 @@
     "strictNullChecks": true,
     "target": "es2015"
   },
+  "exclude": [
+    "node_modules/@types/angular-mocks/node_modules/@types"
+  ],
   "files": [
     "index.tsx",
     "test.tsx"
