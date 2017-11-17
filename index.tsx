@@ -5,7 +5,7 @@ import * as React from 'react'
 import { render, unmountComponentAtNode } from 'react-dom'
 
 const fromPairs = (x: any) => x.reduce(
-  (a: any, [k, v]: [string, any]) => Object.assign({}, a, {[k]: v}),
+  (a: any, [k, v]: [string, any]) => (Object as any).assign({}, a, {[k]: v}),
   {}
 )
 
