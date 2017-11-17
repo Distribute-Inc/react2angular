@@ -29,7 +29,8 @@
     "target": "es2015"
   },
   "exclude": [
-    "node_modules/@types/angular-mocks/node_modules/@types"
+    "node_modules/@types/angular-mocks/node_modules/@types",
+    "node_modules/@types/react-dom/node_modules/@types"
   ],
   "files": [
     "index.tsx",
