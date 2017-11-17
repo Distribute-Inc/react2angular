@@ -4,8 +4,8 @@ import NgComponent from 'ngcomponent'
 import * as React from 'react'
 import { render, unmountComponentAtNode } from 'react-dom'
 
-const fromPairs = (fn: any) => (x: any) => x.reduce(
-  (a: any, [k, v]: [string, any]) => fn(Object.assign({}, a, {[k]: v})),
+const fromPairs = (x: any) => x.reduce(
+  (a: any, [k, v]: [string, any]) => Object.assign({}, a, {[k]: v}),
   {}
 )
 
