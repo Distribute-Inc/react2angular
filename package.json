@@ -56,7 +56,7 @@
     "react-dom": "^15.6.1",
     "rollupify": "^0.4.0",
     "tslint": "^5.7.0",
-    "typescript": "^2.5.2",
+    "typescript": "^2.6.1",
     "watchify": "^3.9.0"
   },
   "dependencies": {
