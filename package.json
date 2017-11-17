@@ -36,7 +36,6 @@
     "@types/jquery": "^3.2.10",
     "@types/lodash.frompairs": "^4.0.3",
     "@types/prop-types": "^15.5.2",
-    "@types/react": ">=15",
     "@types/react-dom": ">=15",
     "angular-mocks": ">=1.5",
     "expect": "^21.2.1",
