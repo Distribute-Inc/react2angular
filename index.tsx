@@ -1,8 +1,13 @@
 import { IAugmentedJQuery, IComponentOptions } from 'angular'
-import fromPairs = require('lodash.frompairs')
+// import fromPairs = require('lodash.frompairs')
 import NgComponent from 'ngcomponent'
 import * as React from 'react'
 import { render, unmountComponentAtNode } from 'react-dom'
+
+const fromPairs = (fn: any) => (x: any) => x.reduce(
+  (a: any, [k, v]: [string, any]) => fn(Object.assign({}, a, {[k]: v})),
+  {}
+)
 
 /**
  * Wraps a React component in Angular. Returns a new Angular component.
