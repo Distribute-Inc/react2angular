@@ -61,6 +61,6 @@
     "angular": ">=1.5.11",
     "husky": "^0.14.3",
     "lodash.frompairs": "^4.0.1",
-    "ngcomponent": "^4.0.1"
+    "ngcomponent": "git://github.com/Distribute-Inc/ngcomponent.git#71f26089201967b829305c48866fa519e64f99d5"
   }
 }
