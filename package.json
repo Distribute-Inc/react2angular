@@ -6,9 +6,9 @@
   "main:esnext": "index.es2015.js",
   "typings": "index.d.ts",
   "scripts": {
-    "build": "npm run clean; ./.bin/tsc -d -t es2015 && mv ./index.js ./index.es2015.js && ./.bin/tsc -t es5",
+    "build": "npm run clean; ./node_modules/.bin/tsc -d -t es2015 && mv ./index.js ./index.es2015.js && ./node_modules/.bin/tsc -t es5",
     "clean": "rm ./*.d.ts; rm ./*.map; exit 0",
-    "pretest": "npm run build",
+    "precommit": "npm run build",
     "prepare": "npm test",
     "test": "karma start --single-run",
     "tdd": "npm-run-all -pr watch:*",
@@ -61,6 +61,7 @@
   },
   "dependencies": {
     "angular": ">=1.5.11",
+    "husky": "^0.14.3",
     "lodash.frompairs": "^4.0.1",
     "ngcomponent": "^4.0.1"
   }
