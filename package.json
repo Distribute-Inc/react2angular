@@ -31,7 +31,6 @@
     "react-dom": ">=15"
   },
   "devDependencies": {
-    "@types/angular-mocks": ">=1.5",
     "@types/jasmine": "^2.5.53",
     "@types/jquery": "^3.2.10",
     "@types/lodash.frompairs": "^4.0.3",
@@ -61,6 +60,6 @@
     "angular": ">=1.5.11",
     "husky": "^0.14.3",
     "lodash.frompairs": "^4.0.1",
-    "ngcomponent": "git://github.com/Distribute-Inc/ngcomponent.git#71f26089201967b829305c48866fa519e64f99d5"
+    "ngcomponent": "^4.1.0"
   }
 }

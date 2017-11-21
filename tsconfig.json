@@ -17,6 +17,13 @@
       "react",
       "react-dom"
     ],
+    "paths": {
+      "*" : [
+        "./node_modules/@types/*",
+        "*"
+      ]
+    },
+    "baseUrl": "./",
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,

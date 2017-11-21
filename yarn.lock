@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@types/angular-mocks@>=1.5", "@types/angular-mocks@^1.5.9":
+"@types/angular-mocks@^1.5.9":
   version "1.5.11"
   resolved "https://registry.yarnpkg.com/@types/angular-mocks/-/angular-mocks-1.5.11.tgz#d5bbefbf742f2196071bda0fe051878b6f4fd72c"
   dependencies:
@@ -14,9 +14,13 @@
   dependencies:
     "@types/angular" "*"
 
-"@types/angular@*", "@types/angular@^1.6.18", "@types/angular@^1.6.32":
+"@types/angular@*", "@types/angular@^1.6.18":
   version "1.6.32"
   resolved "https://registry.yarnpkg.com/@types/angular/-/angular-1.6.32.tgz#fc791aad038227d9413eb5e552993e1076f8a509"
+
+"@types/angular@^1.6.39":
+  version "1.6.39"
+  resolved "https://registry.yarnpkg.com/@types/angular/-/angular-1.6.39.tgz#0c34938fc546f360c14817686f2e453ebf22312f"
 
 "@types/jasmine@^2.5.53":
   version "2.8.2"
@@ -32,13 +36,9 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash@*":
+"@types/lodash@*", "@types/lodash@^4.14.85":
   version "4.14.85"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.85.tgz#a16fbf942422f6eca5622b6910492c496c35069b"
-
-"@types/lodash@^4.14.76":
-  version "4.14.76"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.76.tgz#87874f766774d54e89589697340be9496fb8bf70"
 
 "@types/node@*":
   version "8.0.53"
@@ -55,7 +55,7 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@>=15":
+"@types/react@*":
   version "16.0.23"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.23.tgz#f0f713b07912c6fd8e10c9ccc539443ceb06dbca"
 
@@ -1897,12 +1897,12 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-ngcomponent@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/ngcomponent/-/ngcomponent-4.0.1.tgz#05a729860a1d7a0ec0fdcab291296eb1a0e2183e"
+ngcomponent@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/ngcomponent/-/ngcomponent-4.1.0.tgz#793e379138f552ea0cd2c767ad0aa7057678e228"
   dependencies:
-    "@types/angular" "^1.6.32"
-    "@types/lodash" "^4.14.76"
+    "@types/angular" "^1.6.39"
+    "@types/lodash" "^4.14.85"
     angular ">=1.5.0"
     lodash "^4.17.4"
 
